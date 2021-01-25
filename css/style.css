@@ -122,5 +122,66 @@ h4{
   top: -10px;
   border-top: 2px  solid black;
   border-bottom: 2px  solid black;
+}
+.cubo-r{
+  text-align: center;
+  margin: auto;
+  width: 70%;
+}
+h3{
+  line-height: 40px;
+}
+.cubo-r p{
+  line-height: 30px;
+}
+.btn-l{
+  text-decoration: none;
+  padding: 8px;
+  border-radius: 4px;
+  background-color: orange;
+}
+.libro-2{
+  text-align: center;
+  width: 30%;
+  height: auto;
+  background-color: #fff;
+  margin-left: 20px;
+  margin-top: 30px;
+  position: absolute;
+  top: 10px;
+  display: inline-block;
 
+
+}
+.learn-m{
+  width: 70%;
+  margin: auto;
+  height: 200px;
+  background-color: #fff;
+  position: relative;
+  border:0.5px solid grey;
+  top: 40px;
+
+}
+.libro-2 ul li {
+  text-decoration: none;
+  list-style: none;
+}
+.scrittee{
+display: inline-block;
+  width: 70%;
+position:absolute;
+left: 250px;
+top: 30px;
+}
+.check{
+  color: orange;
+}
+.scrittee ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 10px;
+}
+.scrittee p{
+  line-height: 22px;
 }
