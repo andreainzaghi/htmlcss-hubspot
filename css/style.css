@@ -214,3 +214,32 @@ top: 65px;
 .col ul li #aaa{
   text-align: left;
 }
+
+/* sfondo bluu */
+.sf-blu{
+  background: rgb(11,95,133);
+background: linear-gradient(90deg, rgba(11,95,133,1) 0%, rgba(30,143,180,1) 0%, rgba(24,255,226,1) 100%);
+position: relative;
+top: 200px;
+}
+
+.sfondo-blu{
+  padding:20px;
+  margin: auto;
+  width: 75%;
+  text-align: center;
+
+}
+.i8tab{
+display: inline-block;
+}
+.i1tab{
+  border-right: 2px solid #fff;
+}
+.cv{
+  border-bottom:  2px solid #fff;
+}
+.acca2{
+  padding-bottom: 30px;
+  color: #fff;
+}
