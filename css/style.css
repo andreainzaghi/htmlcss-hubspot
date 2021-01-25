@@ -139,6 +139,7 @@ h3{
   padding: 8px;
   border-radius: 4px;
   background-color: orange;
+  margin-top: 15px;
 }
 .libro-2{
   text-align: center;
@@ -154,7 +155,7 @@ h3{
 
 }
 .learn-m{
-  width: 70%;
+  width: 68.3%;
   margin: auto;
   height: 200px;
   background-color: #fff;
@@ -184,4 +185,32 @@ top: 30px;
 }
 .scrittee p{
   line-height: 22px;
+}
+.i3col{
+width: 70%;
+height: 400px;
+
+margin: auto;
+position: relative;
+top: 65px;
+}
+.col1{
+  width: calc(92% / 3);
+  display: inline-block;
+  margin: auto;
+  text-align: center;
+  padding:0px 15px;
+  border:0.5px solid grey;
+  margin:0px 10px;
+}
+.col1 ul li {
+  color: orange;
+  padding: 3px;
+  list-style: none;
+  margin-bottom: 10px;
+}
+
+
+.col ul li #aaa{
+  text-align: left;
 }
