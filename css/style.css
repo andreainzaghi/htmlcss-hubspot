@@ -11,11 +11,17 @@ body{
   height: 20px;
   margin-left: 150px;
   background-color: rgb(219, 253, 255);
+
 }
 .nav-1 ul li  {
   display: inline-block;
   margin-top: 15px;
+  vertical-align: middle;
 
+
+}
+.nav-1 ul li img {
+vertical-align: middle;
 
 }
 .contact-us{
@@ -35,6 +41,26 @@ body{
 .nav-1 ul li #bordo,#bordo1{
   border: 1.5px solid black;
   border-radius: 4px;
+}
+.navv-1{
+  width: 100%;
+  margin: auto;
+}
+.nav-1{
+  width: 100%;
+  margin: auto;
+}
+.navv-1 ul li  {
+  /* display: inline-block; */
+  vertical-align: middle;
+
+
+
+}
+.navv-1 ul li img {
+vertical-align: middle;
+  display: inline-block;
+
 }
 #bordo{
   margin-left: 20px;
