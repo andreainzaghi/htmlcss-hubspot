@@ -20,10 +20,7 @@ body{
 
 
 }
-.nav-1 ul li img {
-vertical-align: middle;
 
-}
 .contact-us{
   text-decoration: none;
   color: black;
@@ -45,6 +42,7 @@ vertical-align: middle;
 .navv-1{
   width: 100%;
   margin: auto;
+  line-height: 60px;
 }
 .nav-1{
   width: 100%;
@@ -269,17 +267,60 @@ display: inline-block;
   padding-bottom: 30px;
   color: #fff;
 }
-/* .donna-cinese{
-  width: 100%;
+
+
+
+
+
+
+.donna-cinese{
+  width:70%;
   height:150px;
   position:relative;
   top:250px;
+  margin: auto;
 
 }
 .customer{
 width: 35%;
 display: inline-block;
+margin: 50px 50px 0px 100px;
+position: absolute;
+bottom: 10px;
 }
 .ottotab{
   display: inline-block;
-} */
+  position: absolute;
+  left: 500px;
+}
+
+.start1{
+  width: calc(92% / 3);
+  display: inline-block;
+  margin: auto;
+  padding:0px 15px;
+
+  position: relative;
+  top: 340px;
+  left: 200px;
+}
+.start1 a{
+  padding:8px;
+  background-color: orange;
+  border-radius: 5px;
+  text-decoration: none;
+}
+.start11{
+  line-height: 30px;
+  margin-bottom: 20px;
+}
+.start12{
+  line-height: 30px;
+  margin-top: 30px;
+  font-size: 10px;
+}
+.foto-woman{
+  position: absolute;
+  left: 800px;
+
+}
