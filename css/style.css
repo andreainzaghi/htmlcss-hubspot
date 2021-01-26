@@ -330,7 +330,7 @@ bottom: 10px;
 
 .colonne-parole{
   width: 100%;
-  height: 500px;
+  height: 550px;
   position: relative;
   top: 400px;
   background-color: #2D3E50;
@@ -370,4 +370,21 @@ border-radius: 5px;
   width: 30px;
   color:#fff;
 display: inline-block;
+}
+.nav-15{
+  width: 92%;
+  margin: auto;
+}
+#trad .ers ul li  {
+display: inline-block;
+text-decoration: none;
+color: #fff;
+}
+#trad{
+width: 80%;
+margin: auto;
+border-bottom: 1px solid #fff;
+}
+#zen{
+margin-left: 370px;
 }
