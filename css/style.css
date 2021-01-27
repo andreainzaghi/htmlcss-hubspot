@@ -141,7 +141,6 @@ h4{
   width: 100%;
   height: 100px;
   background-color:rgb(195, 244, 239);
-
   border-top: 2px  solid black;
   border-bottom: 2px  solid black;
 } */
@@ -349,7 +348,7 @@ width: 40%;
 /* footer */
  .colonne-parole{
   width: 100%;
-  height: 550px;
+  height: 400px;
   position: relative;
   top: 400px;
   background-color: #2D3E50;
