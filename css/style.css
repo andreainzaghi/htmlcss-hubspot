@@ -72,6 +72,7 @@ body{
 }
 
 /* nav2 */
+
 .settanta{
   vertical-align: middle;
   text-align: center;
@@ -356,9 +357,10 @@ width: 40%;
 }
 
 .colonne-parole div ul li{
-  display: inline-block;
+  float: left;
   padding: 20px;
   color: #fff;
+  list-style: none;
 }
 .centratura ul li  a{
   color:#fff;
@@ -368,6 +370,7 @@ width: 40%;
 width: 80%;
 margin: auto;
 }
+
 
 .footer-btn{
   display: inline-block;
