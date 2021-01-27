@@ -296,7 +296,7 @@ float: right;
 
 }
 .start1{
-  width:60%;
+  width:40%;
   display: inline-block;
   vertical-align: middle;
   padding:0px 15px;
@@ -319,7 +319,7 @@ float: right;
   font-size: 10px;
 }
 .foto-woman{
-
+width: 40%;
  display: inline-block;
   text-align: right;
   vertical-align: middle;
@@ -352,36 +352,28 @@ float: right;
 .centratura{
 width: 80%;
 margin: auto;
-  }/*
-.colonne-parole div ul li p{
-line-height: 30px;
 }
-.colonne-parole> div ul {
-  marin-left: 60px;
-}
-.colonne-parole div ul li a{
+
+
+.log-social  a{
 text-decoration: none;
-color: #fff;
+color:#2D3E50;
 padding:8px;
-background-color: orange;
+background-color: #fff;
 border-radius: 5px;
 }
-.log-social a{
-  padding:8px;
-  background-color: #fff;
-  border-radius: 5px;
-  text-decoration: none;
-  color: #2D3E50;
-}
+
+
 .log-social{
   float: right;
   text-align: center;
+  margin-right: 150px;
 }
-.log-right::after{
+.log-social::after{
   content: "";
   display: block;
   clear: both;
-}
+} /*
 .log-social ul li {
   height: 30px;
   width: 30px;
