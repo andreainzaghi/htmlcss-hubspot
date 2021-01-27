@@ -373,7 +373,7 @@ border-radius: 5px;
   content: "";
   display: block;
   clear: both;
-} /*
+}
 .log-social ul li {
   height: 30px;
   width: 30px;
@@ -384,16 +384,4 @@ border-radius: 5px;
   width: 92%;
   margin: auto;
 }
-#trad .ers ul li  {
-display: inline-block;
-text-decoration: none;
-color: #fff;
-}
-#trad{
-width: 80%;
-margin: auto;
-border-bottom: 1px solid #fff;
-}
-#zen{
-margin-left: 370px;
-} */
+.ers
