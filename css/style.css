@@ -109,10 +109,10 @@ nav{
   position: relative;
 }
 .titolo{
-  width: 38%;
-  position: absolute;
-  top: 50px;
-  left:109px;
+  width: 45%;
+  padding: 50px 0px 0px 100px;
+  text-align: left;
+  vertical-align: middle;
 }
 h1{
   font-size: 40px;
@@ -136,19 +136,19 @@ h4{
   padding-top: 30px;
   font-size: 13px;
 }
-.color-azz{
+/* .color-azz{
   width: 100%;
   height: 100px;
   background-color:rgb(195, 244, 239);
-  position: relative;
-  top: -10px;
+
   border-top: 2px  solid black;
   border-bottom: 2px  solid black;
-}
+} */
 .cubo-r{
   text-align: center;
   margin: auto;
   width: 70%;
+  padding: 20px;
 }
 h3{
   line-height: 40px;
@@ -168,20 +168,25 @@ h3{
   width: 30%;
   height: auto;
   background-color: #fff;
-  margin-left: 20px;
-  margin-top: 30px;
-  position: absolute;
-  top: 10px;
   display: inline-block;
+  float: left;
+  vertical-align: middle;
+  padding-top: 20px;
 }
 .learn-m{
-  width: 68.3%;
+  width: 70%;
   margin: auto;
   height: 200px;
   background-color: #fff;
-  position: relative;
+
   border:0.5px solid grey;
-  top: 40px;
+
+}
+.learn-m::after{
+  content: "";
+  display: block;
+  clear: both;
+
 }
 .libro-2 ul li {
   text-decoration: none;
@@ -190,9 +195,10 @@ h3{
 .scrittee{
 display: inline-block;
 width: 70%;
-position:absolute;
-left: 250px;
-top: 30px;
+float: left;
+vertical-align: middle;
+padding-top: 20px;
+
 }
 .check{
   color: orange;
@@ -206,23 +212,28 @@ top: 30px;
   line-height: 22px;
 }
 .i3col{
-width: 70%;
+width: 72%;
 height: 400px;
 margin: auto;
-position: relative;
-top: 65px;
+
+}
+.spazz{
+  padding: bottom: 20px;
 }
 .col1{
-  width: calc(92% / 3);
+  width: calc(93% / 3);
   margin: auto;
   text-align: center;
   padding:0px 15px;
   border:0.5px solid grey;
-  margin:0px 10px;
+  margin:20px 10px;
   float: left;
 }
 .col1 p{
   margin-bottom: 10px;
+}
+.col1 img{
+padding:15px;
 }
 .i3col::after{
   content:"";
@@ -273,7 +284,7 @@ display: inline-block;
 }
 
 .donna-cinese{
-  width:70%;
+  width:65%;
   height:150px;
   position:relative;
   top:250px;
@@ -384,4 +395,6 @@ border-radius: 5px;
   width: 92%;
   margin: auto;
 }
-.ers
+.ers{
+
+}
