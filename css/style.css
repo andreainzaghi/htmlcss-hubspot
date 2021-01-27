@@ -335,18 +335,24 @@ float: right;
 }
 
 /* footer */
-.colonne-parole{
+ .colonne-parole{
   width: 100%;
   height: 550px;
   position: relative;
   top: 400px;
   background-color: #2D3E50;
+
 }
+
 .colonne-parole div ul li{
   display: inline-block;
   padding: 20px;
   color: #fff;
 }
+.centratura{
+width: 80%;
+margin: auto;
+  }/*
 .colonne-parole div ul li p{
 line-height: 30px;
 }
@@ -368,7 +374,13 @@ border-radius: 5px;
   color: #2D3E50;
 }
 .log-social{
-  margin-left: 950px;
+  float: right;
+  text-align: center;
+}
+.log-right::after{
+  content: "";
+  display: block;
+  clear: both;
 }
 .log-social ul li {
   height: 30px;
@@ -392,4 +404,4 @@ border-bottom: 1px solid #fff;
 }
 #zen{
 margin-left: 370px;
-}
+} */
