@@ -9,7 +9,7 @@ body{
 .nav-1 ul li select {
   border:none;
   height: 20px;
-  margin-left: 150px;
+
   background-color: rgb(219, 253, 255);
 
 }
@@ -18,47 +18,43 @@ body{
   margin-top: 15px;
   vertical-align: middle;
 
-
 }
-
+#search{
+  float: right;
+  color: aqua;
+}
 .contact-us{
   text-decoration: none;
   color: black;
+}
+.nav-398{
+  width: 100%;
+  height: 50px;
+  background-color: rgb(219, 253, 255);
+  border-bottom: 1.5px solid black;
 }
 .nav-1{
   list-style: none;
   height: 50px;
   width: 100%;
-  background-color: rgb(219, 253, 255);
-  border-bottom: 1.5px solid black;
-}
-  #search{
-  margin-left: 500px;
+  text-align: center;
+  margin: auto;
 }
 .nav-1 ul li #bordo,#bordo1{
   border: 1.5px solid black;
   border-radius: 4px;
 }
-.navv-1{
-  width: 100%;
-  margin: auto;
-  line-height: 60px;
-}
-.nav-1{
-  width: 100%;
-  margin: auto;
-}
-.navv-1 ul li  {
-  /* display: inline-block; */
-  vertical-align: middle;
-
-
-
-}
-.navv-1 ul li img {
-vertical-align: middle;
+.cinq{
   display: inline-block;
-
+  vertical-align: middle;
+  text-align: left;
+  width: 40%;
+}
+.cinq-1{
+  display: inline-block;
+  vertical-align: middle;
+  text-align: right;
+  width: 40%;
 }
 #bordo{
   margin-left: 20px;
@@ -66,8 +62,6 @@ vertical-align: middle;
   color: #fff;
   padding: 4px;
   text-decoration: none;
-
-
 }
 #bordo1{
   margin-left: 20px;
@@ -76,31 +70,36 @@ vertical-align: middle;
   padding: 4px;
   text-decoration: none;
 }
-nav ul li  {
-  display: inline-block;
-}
- .img{
-  margin-left: 150px;
-  margin-top: 15px;
 
+/* nav2 */
+.settanta{
+  vertical-align: middle;
+  text-align: center;
+  margin:10px 0px 10px 60px;
+  width: 90%;
+}
+.immagine11{
+  display: inline-block;
+  vertical-align: middle;
+  width: 40%;
+  text-align: left;
+}
+.links{
+  display: inline-block;
+  vertical-align: middle;
+  width: 50%;
+  text-align: right;
+}
+.links ul li {
+  display: inline-block;
+  text-decoration: none;
+  vertical-align: middle;
 }
 nav{
-  list-style: none;
-  height: 60px;
   width: 100%;
-  background-color: #fff;
-  border-bottom: 1.5px solid black;
+    height: 50px;
 }
-#cars-1{
-  border:none;
-  height: 20px;
-  margin-left: 400px;
-}
-#cars-2{
-    border:none;
-    padding: 0px 10px;
 
-}
 /* fine nav */
 /* hero */
 .hero{
@@ -108,13 +107,12 @@ nav{
   height: 600px;
   background-size: contain;
   position: relative;
-
 }
 .titolo{
   width: 38%;
   position: absolute;
   top: 50px;
-  left:100px;
+  left:109px;
 }
 h1{
   font-size: 40px;
@@ -124,7 +122,7 @@ h4{
   line-height: 30px;
   padding-top: 30px;
   padding-bottom: 30px;
-    font-size: 14px;
+  font-size: 14px;
 }
 .titolo a{
   border-radius: 8px;
@@ -136,7 +134,7 @@ h4{
 }
 .titolo p{
   padding-top: 30px;
-    font-size: 13px;
+  font-size: 13px;
 }
 .color-azz{
   width: 100%;
@@ -175,8 +173,6 @@ h3{
   position: absolute;
   top: 10px;
   display: inline-block;
-
-
 }
 .learn-m{
   width: 68.3%;
@@ -186,7 +182,6 @@ h3{
   position: relative;
   border:0.5px solid grey;
   top: 40px;
-
 }
 .libro-2 ul li {
   text-decoration: none;
@@ -194,7 +189,7 @@ h3{
 }
 .scrittee{
 display: inline-block;
-  width: 70%;
+width: 70%;
 position:absolute;
 left: 250px;
 top: 30px;
@@ -213,19 +208,26 @@ top: 30px;
 .i3col{
 width: 70%;
 height: 400px;
-
 margin: auto;
 position: relative;
 top: 65px;
 }
 .col1{
   width: calc(92% / 3);
-  display: inline-block;
   margin: auto;
   text-align: center;
   padding:0px 15px;
   border:0.5px solid grey;
   margin:0px 10px;
+  float: left;
+}
+.col1 p{
+  margin-bottom: 10px;
+}
+.i3col::after{
+  content:"";
+  display:block;
+  clear:both;
 }
 .col1 ul li {
   color: orange;
@@ -233,8 +235,9 @@ top: 65px;
   list-style: none;
   margin-bottom: 10px;
 }
-
-
+.ciec{
+  text-align: left;
+}
 .col ul li #aaa{
   text-align: left;
 }
@@ -246,13 +249,11 @@ background: linear-gradient(90deg, rgba(11,95,133,1) 0%, rgba(30,143,180,1) 0%, 
 position: relative;
 top: 200px;
 }
-
 .sfondo-blu{
   padding:20px;
   margin: auto;
   width: 75%;
   text-align: center;
-
 }
 .i8tab{
 display: inline-block;
@@ -267,14 +268,9 @@ display: inline-block;
   padding-bottom: 30px;
   color: #fff;
 }
-.i2tab{
-  margin: 6px;
+.i1tab,.i2tab{
+  padding:10px;
 }
-
-
-
-
-
 
 .donna-cinese{
   width:70%;
@@ -284,28 +280,28 @@ display: inline-block;
   margin: auto;
 
 }
+.donna-cinese::after{
+  content: "";
+  display: block;
+  clear: both;
+}
 .customer{
 width: 35%;
 display: inline-block;
-margin: 50px 50px 0px 100px;
-position: absolute;
-bottom: 10px;
+float:left;
 }
 .ottotab{
   display: inline-block;
-  position: absolute;
-  left: 500px;
+float: right;
+
 }
-
 .start1{
-  width: calc(92% / 3);
+  width:60%;
   display: inline-block;
-  margin: auto;
+  vertical-align: middle;
   padding:0px 15px;
-
-  position: relative;
-  top: 340px;
-  left: 200px;
+  margin: auto;
+  text-align: left;
 }
 .start1 a{
   padding:8px;
@@ -323,14 +319,22 @@ bottom: 10px;
   font-size: 10px;
 }
 .foto-woman{
-  position: absolute;
-  left: 800px;
+
+ display: inline-block;
+  text-align: right;
+  vertical-align: middle;
 
 }
-
+.foto{
+  width:100%;
+  height:350px;
+ margin:auto;
+  position:relative;
+  top:310px;
+  text-align: center;
+}
 
 /* footer */
-
 .colonne-parole{
   width: 100%;
   height: 550px;
@@ -342,13 +346,12 @@ bottom: 10px;
   display: inline-block;
   padding: 20px;
   color: #fff;
-
 }
 .colonne-parole div ul li p{
 line-height: 30px;
 }
-.colonne-parole> div ul li{
-  margin-left: 60px;
+.colonne-parole> div ul {
+  marin-left: 60px;
 }
 .colonne-parole div ul li a{
 text-decoration: none;
@@ -366,13 +369,12 @@ border-radius: 5px;
 }
 .log-social{
   margin-left: 950px;
-
 }
-.log-social ul li{
+.log-social ul li {
   height: 30px;
   width: 30px;
   color:#fff;
-display: inline-block;
+  display: inline-block;
 }
 .nav-15{
   width: 92%;
