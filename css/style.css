@@ -398,11 +398,20 @@ margin: auto;
 .navigation-language a{
   margin-right: 15px;
   color: #dadee0;
+  text-decoration: none;
 }
 
 .navigation-logo{
   display: inline-block;
   width: 30%;
+}
+.foott{
+  width: 75%;
+  margin: auto;
+  padding-top: 80px;
+}
+.Copyright{
+  color: #fff;
 }
 
 .navigation-logo p{
@@ -413,8 +422,11 @@ margin: auto;
   width: 50%;
   text-align: right;
   float: right;
+
 }
 
 .navigation-privacy a{
   padding-left: 15px;
+  color: #fff;
+  text-decoration: none;
 }
