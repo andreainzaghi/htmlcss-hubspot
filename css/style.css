@@ -196,7 +196,7 @@ h3{
   margin: auto;
   height: 200px;
   background-color: #fff;
-
+  margin-bottom: 25px;
   border:0.5px solid grey;
 
 }
@@ -230,8 +230,7 @@ padding-top: 20px;
   line-height: 22px;
 }
 .i3col{
-width: 72%;
-height: 400px;
+width: 70%;
 margin: auto;
 
 }
@@ -239,17 +238,21 @@ margin: auto;
   padding: bottom: 20px;
 }
 .col1{
-  width:31%;
+  width:32%;
   margin: auto;
   text-align: center;
-  padding:0px 15px;
+ padding: 0px 15px;
   border:0.5px solid grey;
-  margin:20px 10px;
+
   float: left;
 }
 .col1 p{
   margin-bottom: 10px;
 }
+.colt{
+margin:0% 2%;
+}
+
 .col1 img{
 padding:15px;
 }
