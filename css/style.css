@@ -122,6 +122,8 @@ body{
   width:100%;
   z-index: 4;
   background-color: rgb(148, 221, 212);
+  border-bottom: 3px solid #33475B;
+  border-top: 3px solid #33475B;
 }
 
 .titolo{
