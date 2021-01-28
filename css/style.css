@@ -135,6 +135,9 @@ body{
   font-size: 35px;
   display: inline-block;
 }
+.spazio-social{
+  padding-right: 10px;
+}
 .tia{
   display: inline-block;
 }
