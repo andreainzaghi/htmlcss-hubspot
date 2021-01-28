@@ -12,6 +12,9 @@ body{
  background-color:  #F4F9FD;
 
 }
+.cinq ul li select option{
+  background-color: #fff;
+}
 .nav-1 ul li  {
   display: inline-block;
   margin-top: 15px;
@@ -103,6 +106,9 @@ body{
   text-decoration: none;
   vertical-align: middle;
 }
+.img-logo{
+  margin:8px 0px;
+}
 
 
 /* fine nav */
@@ -118,12 +124,19 @@ body{
 .azzurro{
   position: absolute;
   bottom: 0;
-  height:79px;
+  height:82px;
   width:100%;
   z-index: 4;
   background-color: rgb(148, 221, 212);
   border-bottom: 3px solid #33475B;
   border-top: 3px solid #33475B;
+}
+.centocinquanta{
+  font-size: 35px;
+  display: inline-block;
+}
+.tia{
+  display: inline-block;
 }
 
 .titolo{
