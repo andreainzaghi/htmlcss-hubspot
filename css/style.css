@@ -34,6 +34,7 @@ body{
 .links ul li select {
   border:none;
   height: 20px;
+  padding: 0px 15px;
 
 
 }
@@ -87,13 +88,13 @@ body{
 .immagine11{
   display: inline-block;
   vertical-align: middle;
-  width: 49%;
+  width: 29%;
   text-align: left;
 }
 .links{
   display: inline-block;
   vertical-align: middle;
-  width: 49%;
+  width: 69%;
   text-align: right;
 }
 .links ul li {
