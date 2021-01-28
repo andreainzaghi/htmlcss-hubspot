@@ -9,15 +9,13 @@ body{
 .nav-1 ul li select {
   border:none;
   height: 20px;
-
-  background-color: rgb(219, 253, 255);
+  );
 
 }
 .nav-1 ul li  {
   display: inline-block;
   margin-top: 15px;
   vertical-align: middle;
-
 }
 #search{
   float: right;
@@ -30,13 +28,14 @@ body{
 .nav-398{
   width: 100%;
   height: 50px;
-  background-color: rgb(219, 253, 255);
-  border-bottom: 1.5px solid black;
+
+
 }
+
 .nav-1{
   list-style: none;
   height: 50px;
-  width: 100%;
+  width: 70%;
   text-align: center;
   margin: auto;
 }
@@ -48,13 +47,13 @@ body{
   display: inline-block;
   vertical-align: middle;
   text-align: left;
-  width: 40%;
+  width:49%;
 }
 .cinq-1{
   display: inline-block;
   vertical-align: middle;
   text-align: right;
-  width: 40%;
+  width:49% ;
 }
 #bordo{
   margin-left: 20px;
@@ -76,19 +75,19 @@ body{
 .settanta{
   vertical-align: middle;
   text-align: center;
-  margin:10px 0px 10px 60px;
-  width: 90%;
+  margin:auto;
+  width: 70%;
 }
 .immagine11{
   display: inline-block;
   vertical-align: middle;
-  width: 40%;
+  width: 49%;
   text-align: left;
 }
 .links{
   display: inline-block;
   vertical-align: middle;
-  width: 50%;
+  width: 49%;
   text-align: right;
 }
 .links ul li {
@@ -104,16 +103,18 @@ nav{
 /* fine nav */
 /* hero */
 .hero{
-  background-image: url(../img/jumbotron.png);
-  height: 600px;
-  background-size: contain;
-  position: relative;
+  height:100vh;
+  background-color: #fdf1ef;
+  background-image: url('../img/jumbotron.png');
+  background-repeat: no-repeat;
+
+  background-position: 100% 28%;
 }
+
 .titolo{
-  width: 45%;
-  padding: 50px 0px 0px 100px;
-  text-align: left;
-  vertical-align: middle;
+  width: 50%;
+  padding-top: 40px;
+  height: 100%
 }
 h1{
   font-size: 40px;
@@ -221,7 +222,7 @@ margin: auto;
   padding: bottom: 20px;
 }
 .col1{
-  width: calc(93% / 3);
+  width:31%;
   margin: auto;
   text-align: center;
   padding:0px 15px;
@@ -257,17 +258,22 @@ padding:15px;
 .sf-blu{
   background: rgb(11,95,133);
 background: linear-gradient(90deg, rgba(11,95,133,1) 0%, rgba(30,143,180,1) 0%, rgba(24,255,226,1) 100%);
+margin:  50px 0px;
+height: 100vh;
 position: relative;
-top: 200px;
 }
 .sfondo-blu{
-  padding:20px;
+  position: absolute;
+  top:50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
   margin: auto;
   width: 75%;
   text-align: center;
 }
 .i8tab{
 display: inline-block;
+
 }
 .i1tab{
   border-right: 2px solid #fff;
@@ -285,11 +291,7 @@ display: inline-block;
 
 .donna-cinese{
   width:65%;
-  height:150px;
-  position:relative;
-  top:250px;
   margin: auto;
-
 }
 .donna-cinese::after{
   content: "";
@@ -303,7 +305,7 @@ float:left;
 }
 .ottotab{
   display: inline-block;
-float: right;
+  float: right;
 
 }
 .start1{
@@ -340,8 +342,7 @@ width: 40%;
   width:100%;
   height:350px;
  margin:auto;
-  position:relative;
-  top:310px;
+
   text-align: center;
 }
 
@@ -349,8 +350,7 @@ width: 40%;
  .colonne-parole{
   width: 100%;
   height: 400px;
-  position: relative;
-  top: 400px;
+
   background-color: #2D3E50;
 
 }
@@ -365,11 +365,20 @@ width: 40%;
   color:#fff;
   text-decoration: none;
 }
+.main-basso{
+  padding: 50px;
+  height: 100vh;
+
+}
 .centratura{
 width: 80%;
 margin: auto;
 }
-
+.centratura::after{
+  content: "";
+  display:block;
+  clear: both;
+}
 
 .footer-btn{
   display: inline-block;
