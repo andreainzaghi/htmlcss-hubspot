@@ -279,14 +279,11 @@ padding:15px;
   background: rgb(11,95,133);
 background: linear-gradient(90deg, rgba(11,95,133,1) 0%, rgba(30,143,180,1) 0%, rgba(24,255,226,1) 100%);
 margin:  50px 0px;
-height: 100vh;
+
 position: relative;
 }
 .sfondo-blu{
-  position: absolute;
-  top:50%;
-  left: 50%;
-  transform: translate(-50%,-50%);
+ padding: 40px 0px;
   margin: auto;
   width: 75%;
   text-align: center;
